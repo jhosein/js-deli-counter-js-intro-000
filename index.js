@@ -13,7 +13,7 @@ function nowServing() {
     return "There is nobody waiting to be served!";
   }
   else{
-    let  katzDeliLine[0] =  nextPerson;
+    let nextPerson = katzDeliLine[0];
 
     katzDeliLine.splice(0,1);
     return `Currently serving ${nextPerson}.`;
