@@ -16,7 +16,6 @@ function nowServing() {
     katzDeliLine[0] =  nextPerson;
 
     katzDeliLine.splice(0,1);
-
     return "nextPerson";
   }
 }
