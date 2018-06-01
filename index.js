@@ -29,7 +29,7 @@ function currentLine(line) {
     let message = "The line is currently: ";
 
     for (var i = 0; i < line.length; i++) {
-      message += `${i+1} ` + line[i] " ";
+      message += `${i+1} ` + line[i] + " ";
     }
     return message;
   }
