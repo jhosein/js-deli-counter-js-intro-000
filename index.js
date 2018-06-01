@@ -19,3 +19,18 @@ function nowServing(katzDeliLine) {
     return `Currently serving ${nextPerson}.`;
   }
 }
+
+function currentLine(line) {
+
+  if (line.length === 0) {
+    return "The line is currently empty.";
+  }
+  else {
+    let message = "The line is currently: ";
+
+    for (var i = 0; i < array.length; i++) {
+      array[i]
+    }
+    return
+  }
+}
