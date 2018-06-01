@@ -31,6 +31,6 @@ function currentLine(line) {
     for (var i = 0; i < line.length; i++) {
       message += `${i+1} ` + line[i] " ";
     }
-    return
+    return message;
   }
 }
